@@ -27,7 +27,7 @@ HTML;
 
 $mailer = new PHPMailer();
 $mailer->setFrom( $email, "$nombre $apellido" );
-$mailer->addAddress('ejemplo@germanrodriguez.com.ar','Sitio web');
+$mailer->addAddress('oficina.tecnica@cbues.org.sv','Sitio web');
 $mailer->Subject = "Mensaje web: $asunto";
 $mailer->msgHTML($body);
 $mailer->AltBody = strip_tags($body);
