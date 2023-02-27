@@ -39,5 +39,5 @@ if( $foto['size'] > 0 ){
 
 $rta = $mailer->send( );
 
-//var_dump($rta);
+var_dump($rta);
 header("Location: gracias.html" );
