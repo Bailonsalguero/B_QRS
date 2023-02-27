@@ -41,6 +41,6 @@ $headers.= "To: Sitio web <oficina.tecnica@cbues.org.sv> \r\n";
 //ASUNTO 
 //CUERPO 
 $rta = mail('oficina.tecnica@cbues.org.sv', "Mensaje web: $asunto", $body, $headers );
-//var_dump($rta);
+var_dump($rta);
 
 header("Location: gracias.html" );
