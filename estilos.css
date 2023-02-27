@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Rubik+One';
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+ 
+    margin: 0;
+    padding: 50;
+    --form-gap: 20px;
+    background: #FDC830;  /* fallback for old browsers */
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #fdb501 50%, #71401c 140%);
+
+}
+
+h1{
+    margin: 0 0 1em;
+    padding: 1em;
+    
+    color: black;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    max-height: 10px;
+    margin-top: -10px;
+    
+}
+
+h2{
+    font-family:'Open Sans', sans-serif;
+    color: #670F0F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+    width: 80%;
+    margin: auto;
+    gap: 40px;
+    align-items: flex-start;
+}
+P {
+    text-align: justify;
+    margin-left: 20px;
+    padding-right: 15px;
+}
+
+img {
+    height: 100%;
+    width: 110%;
+    object-fit: contain;
+    margin-top: 20px;
+    position:relative;
+    margin-left: 0px;
+    
+}
+.cat {
+    height:300px;
+    width: 300px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 10px var( --form-gap ); 
+}
+
+form > div{
+    width: calc( 50% - ( var(--form-gap) / 2 ) );
+}
+
+form > div.large, form h2{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input, select, textarea{
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    outline: none;
+    resize: none;
+}
+
+button{
+    background: #670F0F;
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    border: none;
+    outline: none;
+}
+hr{
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
